@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="21051241_Lê Anh Duy" content="form_html">
+    <title>Bai16</title>
+</head>
+<body>
+    <h1>Travel reservation form</h1>
+    <h2>* denotes mandotory</h2>
+    <form action="">
+        <label for="name">Full name*:</label><br>
+        <input type="text" name="name" id="name" autofocus placeholder="FirstName LastName" size="25" required  ><br>
+        <label for="email">Email address*:</label><br>
+        <input type="email" name="email" id="email" placeholder="EMAIL_ADDRESS" required size="25" maxlength="20"><br>
+        <label for="package">Select Tour Package*:</label><br>
+        <select name="package" id="package">
+            <option value="Goa">Goa</option>
+            <option value="Other">Other</option>
+        </select><br>
+        <label for="date">Arrival date*:</label><br>
+        <input type="text" name="date" id="date" required placeholder="m/d/y" size="25"><br>
+        <label for="number">Number of persons*:</label><br>
+        <input type="number" name="number" id="number" required placeholder="UNKNOW_TYPE"><br>
+        <label for="">What would you want to avail?*:</label><br>
+        <label for="select1">Boarding <input type="checkbox" name="tick" id="select1"></input> </label><br>
+        <label for="select2">Fooding <input type="checkbox" name= "tick" id="select2"></input> </label><br>
+        <label for="select3">Sight seeing <input type="checkbox" name="tick" id="select3"></input> </label><br>
+        <label for="code">Discout Coupon code:</label><br>
+        <input type="text" name="code" id="code" size="25" placeholder="UNKNOW_TYPE"><br>
+        <label for="">Terms and conditions*</label><br>
+        <label for="answer1">
+            <input type="radio" name="answer" id="answer1">
+            I agree
+        </label>
+        <label for="answer2">
+            <input type="radio" name="answer" id="answer2">
+            I disagree
+        </label><br>
+        <input type="submit" name="submit" id="submit" value="Complete reservation">
+        
+    </form>
+    
+</body>
+</html>
